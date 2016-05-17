@@ -25,3 +25,6 @@ set autoindent
 
 "remove whitespaces on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+set hlsearch
+nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
