@@ -26,5 +26,12 @@ set autoindent
 "remove whitespaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+"search highlighting
 set hlsearch
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+
+"move between open files faster
+nnoremap <Leader><Leader> :e#<CR>
+
+"match parenthesis
+set showmatch
