@@ -74,3 +74,4 @@ let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 let g:gitgutter_sign_column_always=1
 
 "lightline conf
+set laststatus=2
