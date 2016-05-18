@@ -14,6 +14,9 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 
+"themes
+Plug 'chriskempson/vim-tomorrow-theme'
+
 call plug#end()
 
 filetype on
