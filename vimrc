@@ -72,3 +72,5 @@ let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
 " git gutter conf
 let g:gitgutter_sign_column_always=1
+
+"lightline conf
