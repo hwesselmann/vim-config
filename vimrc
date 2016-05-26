@@ -21,6 +21,8 @@ call plug#end()
 
 filetype on
 syntax on
+filetype plugin indent on
+
 colorscheme Tomorrow-Night-Eighties
 
 set guifont=Source\ Code\ Pro\ 12
