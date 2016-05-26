@@ -13,6 +13,8 @@ Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-haml'
+Plug 'skalnik/vim-vroom'
 
 "themes
 Plug 'chriskempson/vim-tomorrow-theme'
