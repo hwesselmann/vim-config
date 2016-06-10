@@ -42,7 +42,7 @@ set history=100
 "indentation
 filetype indent on
 set nowrap
-set tabstop=2
+set tabstop=4
 set shiftwidth=2
 set expandtab
 set smartindent
