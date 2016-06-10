@@ -8,6 +8,15 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 
+"python stuff
+Plug 'nvie/vim-flake8'
+Plug 'vim-scripts/Pydiction'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'scrooloose/syntastic'
+Plug 'jmcantrell/vim-virtualenv'
+Plug 'Shougo/neocomplcache.vim'
+Plug 'klen/rope-vim'
+
 "ruby stuff
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
@@ -48,6 +57,13 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
+
+"filetype specific stuff
+autocmd FileType ruby setlocal tabstop=2
+autocmd FileType ruby setlocal shiftwidth=2
+autocmd FileType ruby setlocal softtabstop=2
+autocmd FileType ruby setlocal commentstring=#\ %s
+autocmd FileType python setlocal commentstring=#\ %s
 
 "do not use backup and swapfile
 set nobackup
