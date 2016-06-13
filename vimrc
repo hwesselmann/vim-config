@@ -7,6 +7,7 @@ Plug 'ervandew/supertab'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'kien/ctrlp.vim'
 
 "python stuff
 Plug 'nvie/vim-flake8'
@@ -14,8 +15,8 @@ Plug 'vim-scripts/Pydiction'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'scrooloose/syntastic'
 Plug 'jmcantrell/vim-virtualenv'
-Plug 'Shougo/neocomplcache.vim'
 Plug 'klen/rope-vim'
+Plug 'Shougo/neocomplete.vim'
 
 "ruby stuff
 Plug 'tpope/vim-bundler'
@@ -97,5 +98,10 @@ let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 " git gutter conf
 let g:gitgutter_sign_column_always=1
 
+let python_highlight_all=1
+
 "lightline conf
 set laststatus=2
+
+"neocomplete
+let g:neocomplete#enable_at_startup = 1
