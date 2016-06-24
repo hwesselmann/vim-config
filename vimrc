@@ -11,7 +11,7 @@ Plug 'kien/ctrlp.vim'
 
 "python stuff
 Plug 'nvie/vim-flake8'
-Plug 'vim-scripts/Pydiction'
+"Plug 'vim-scripts/Pydiction'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'scrooloose/syntastic'
 Plug 'jmcantrell/vim-virtualenv'
