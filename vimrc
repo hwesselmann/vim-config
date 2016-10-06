@@ -26,6 +26,9 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-haml'
 Plug 'skalnik/vim-vroom'
 
+" qml stuff
+Plug 'peterhoeg/vim-qml'
+
 "themes
 Plug 'chriskempson/vim-tomorrow-theme'
 
