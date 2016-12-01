@@ -8,6 +8,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'kien/ctrlp.vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
 
 "python stuff
 Plug 'nvie/vim-flake8'
@@ -25,12 +29,14 @@ Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-haml'
 Plug 'skalnik/vim-vroom'
+Plug 'tomtom/tcomment_vim'
 
 " qml stuff
 Plug 'peterhoeg/vim-qml'
 
 "themes
 Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'jpo/vim-railscasts-theme'
 
 call plug#end()
 
@@ -38,9 +44,9 @@ filetype on
 syntax on
 filetype plugin indent on
 
-colorscheme Tomorrow-Night-Eighties
+colorscheme railscasts
 
-set guifont=Source\ Code\ Pro\ 12
+set guifont=Meslo\ 12
 
 set colorcolumn=90
 set number
