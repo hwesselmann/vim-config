@@ -105,7 +105,7 @@ nmap <leader>j :NERDTreeFind<CR>
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
 " git gutter conf
-let g:gitgutter_sign_column_always=1
+set signcolumn=yes
 
 let python_highlight_all=1
 
