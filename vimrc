@@ -12,27 +12,18 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
-
-"python stuff
-Plug 'nvie/vim-flake8'
-"Plug 'vim-scripts/Pydiction'
-Plug 'vim-scripts/indentpython.vim'
-Plug 'scrooloose/syntastic'
-Plug 'jmcantrell/vim-virtualenv'
-Plug 'klen/rope-vim'
 Plug 'Shougo/neocomplete.vim'
 
 "ruby stuff
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rbenv'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-haml'
 Plug 'skalnik/vim-vroom'
 Plug 'tomtom/tcomment_vim'
-
-" qml stuff
-Plug 'peterhoeg/vim-qml'
+Plug 'ngmy/vim-rubocop'
 
 "themes
 Plug 'chriskempson/vim-tomorrow-theme'
