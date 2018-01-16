@@ -6,8 +6,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-grepper'
 Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
-Plug 'Shougo/deoplete.nvim', { 'do': 'UpdateRemotePlugins' }
-Plug 'roxma/nvim-yarp'
+Plug 'roxma/nvim-completion-manager'
+Plug 'roxma/ncm-rct-complete'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'scrooloose/nerdtree'
 Plug 'w0rp/ale'
@@ -19,7 +19,6 @@ Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'ryanoasis/vim-devicons'
 
 "ruby plugins
-Plug 'fishbullet/deoplete-ruby', { 'for': 'ruby' }
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
@@ -142,3 +141,4 @@ nmap <Leader>j :NERDTreeFind<CR>
 "tagbar activation
 nmap <F8> :TagbarToggle<CR>
 
+set pyxversion=3
