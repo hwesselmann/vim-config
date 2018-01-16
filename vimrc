@@ -8,7 +8,6 @@ Plug 'mhinz/vim-grepper'
 Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
 Plug 'roxma/nvim-completion-manager'
 Plug 'roxma/ncm-rct-complete'
-Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'scrooloose/nerdtree'
 Plug 'w0rp/ale'
 Plug 'justinmk/vim-sneak'
@@ -19,6 +18,7 @@ Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'ryanoasis/vim-devicons'
 
 "ruby plugins
+Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
@@ -28,6 +28,9 @@ Plug 'tpope/vim-haml'
 Plug 'skalnik/vim-vroom'
 Plug 'tomtom/tcomment_vim'
 Plug 'ngmy/vim-rubocop'
+
+"JavaScript plugins
+Plug 'roxma/nvim-cm-tern',  {'do': 'npm install'}
 
 "themes
 Plug 'jpo/vim-railscasts-theme'
