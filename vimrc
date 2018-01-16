@@ -122,9 +122,9 @@ nnoremap <Leader>t :CtrlP<CR>
 nnoremap <Leader>fp :Grepper<Space>-query<Space>
 nnoremap <Leader>fb :Grepper<Space>-buffers<Space>-query<Space>-<Space>
 
-"deoplete
-let g:deoplete#enabe_at_startup = 1
-inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+" nvim-completion-manager
+set shortmess+=c
+inoremap <expr> <CR> (pumvisible() ? "\<c-y>\<cr>" : "\<CR>")
 
 "sneak
 let g:sneak#s_next = 1
