@@ -17,6 +17,9 @@ Plug 'majutsushi/tagbar'
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'ryanoasis/vim-devicons'
 
+"python plugins
+Plug 'davidhalter/jedi-vim'
+
 "ruby plugins
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'tpope/vim-bundler'
@@ -40,6 +43,7 @@ call plug#end()
 
 color dracula
 set guifont=SauceCodePro\ Nerd\ Font\ 11
+set guiheadroom=0
 
 set encoding=utf8
 set nomodeline
@@ -89,6 +93,9 @@ set showmatch
 "git gutter conf
 set signcolumn=yes
 
+" enable all Python syntax highlighting features
+let python_highlight_all = 1
+
 "use arrow keys to resize panes
 "nnoremap <Left> :vertical resize -1<CR>
 "nnoremap <Right> :vertical resize +1<CR>
@@ -124,7 +131,6 @@ nnoremap <Leader>fb :Grepper<Space>-buffers<Space>-query<Space>-<Space>
 
 " nvim-completion-manager
 set shortmess+=c
-inoremap <expr> <CR> (pumvisible() ? "\<c-y>\<cr>" : "\<CR>")
 
 "sneak
 let g:sneak#s_next = 1
@@ -145,3 +151,8 @@ nmap <Leader>j :NERDTreeFind<CR>
 nmap <F8> :TagbarToggle<CR>
 
 set pyxversion=3
+
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
