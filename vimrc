@@ -42,7 +42,8 @@ Plug 'dracula/vim'
 call plug#end()
 
 color dracula
-set guifont=SauceCodePro\ Nerd\ Font\ 11
+"set guifont=SauceCodePro\ Nerd\ Font\ 11
+set guifont=DroidSansMono\ Nerd\ Font\ 11
 set guiheadroom=0
 
 set encoding=utf8
