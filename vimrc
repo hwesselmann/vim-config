@@ -17,9 +17,6 @@ Plug 'majutsushi/tagbar'
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'ryanoasis/vim-devicons'
 
-"python plugins
-Plug 'davidhalter/jedi-vim'
-
 "ruby plugins
 Plug 'roxma/ncm-rct-complete'
 Plug 'tpope/vim-bundler'
